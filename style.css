@@ -84,3 +84,26 @@ input{
     font-size: 35px;
     font-weight: bolder;
 }
+
+@media(max-width: 768px){
+    #word,#user-input{
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width: 768px){
+    #word{
+        font-size: 2rem;
+    }
+    #user-input{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 480px){
+    #word{
+        font-size: 0.8rem;
+    }
+    #user-input{
+        font-size: 0.5rem;
+    }
+}
