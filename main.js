@@ -1,4 +1,5 @@
 // Selecting Elements
+
 let userInput = document.querySelector('#user-input');
 let divs = document.querySelectorAll('#word');
 let result = document.querySelector('#result');
@@ -22,7 +23,6 @@ let wordsToDisplay = [];
 let typedValue = [];
 let correctWords = [];
 let incorrectWords = [];
-
 let wordIndex = 0;
 let timeofStart;
 
