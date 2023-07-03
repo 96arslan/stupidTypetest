@@ -1,0 +1,86 @@
+body{
+    background-color: #656176;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+#user-input{
+    font-size: 20px;
+    text-align: center;
+    background-color:  #9FA4A9;
+    padding: 10px 0 10px 0;
+    width: 25%;
+    border-radius: 2px;
+}
+
+
+#random-words{
+    background-color: #2c3536;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 2em;
+    font-weight: 700;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    padding: 1px;
+
+}
+
+#random-words #word{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    align-self: center;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+#lWords{
+    text-align: center;
+    width: 200px;
+    
+}
+
+#result{
+    font-family: 'Shadows Into Light', cursive;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#word-result{
+    padding: 10px 0 15px 0;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#word-result div {
+    border-radius: 2px;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
