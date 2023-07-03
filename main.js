@@ -1,4 +1,5 @@
 // Selecting Elements
+
 let userInput = document.querySelector('#user-input');
 let divs = document.querySelectorAll('#word');
 let result = document.querySelector('#result');
