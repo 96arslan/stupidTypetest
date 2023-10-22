@@ -1,2 +1,2 @@
 # stupidTypetest
-# My first project, made using plane HTML, CSS and JavaScript
+# My first project, made using plain HTML, CSS and JavaScript
